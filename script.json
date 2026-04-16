@@ -1,1 +1,10 @@
-
+[
+    {
+        "name": "Speed Boost",
+        "require": "game:GetService(\"ReplicatedStorage\").Modules.SpeedModule"
+    },
+    {
+        "name": "Jump Power",
+        "require": "game:GetService(\"ReplicatedStorage\").Modules.JumpModule"
+    }
+]
